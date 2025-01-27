@@ -5,7 +5,7 @@ return {
         [1] = {
             exit = vec4(266.11, -1007.61, -101.01, 357.68),
             skillcheck = {'easy', 'medium', 'easy', 'medium'},
-            callCopsTimeout = 30000,
+            callCopsTimeout = 3000,
             loot = {
                 {coords = vec3(265.97, -999.46, -99.01), pool = {1, 3, 4}},
                 {coords = vec3(265.66, -997.40, -99.01), pool = {1, 2, 3, 4}},
@@ -23,7 +23,7 @@ return {
         [2] = {
             exit = vec4(346.55, -1012.83, -99.2, 5.8),
             skillcheck = {'medium', 'easy', 'hard', 'medium'},
-            callCopsTimeout = 25000,
+            callCopsTimeout = 2500,
             loot = {
                 {coords = vec3(346.15, -1001.71, -99.2), pool = {1, 3, 4, 5, 6, 7}},
                 {coords = vec3(345.01, -995.49, -99.2),  pool = {1, 2, 3, 4, 5, 6, 7}},
@@ -46,7 +46,7 @@ return {
         [3] = {
             exit = vec4(-174.27, 497.71, 137.65, 191.5),
             skillcheck = {'hard', 'medium', 'hard', 'medium'},
-            callCopsTimeout = 20000,
+            callCopsTimeout = 2000,
             loot = {
                 {coords = vec3(-170.21, 495.82, 137.65), pool = {1, 3, 4, 5, 6, 7}},
                 {coords = vec3(-168.18, 494.13, 137.65), pool = {1, 2, 3, 4, 5, 6, 7}},
